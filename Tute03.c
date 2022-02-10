@@ -16,10 +16,8 @@ int main() {
   int number;
   int count;
   int sum = 0;
-
   printf("n ->");
   scanf("%d", &number);
-
   for(count = 0 ; count <= number ; count++)
   {
     sum += count;
