@@ -23,9 +23,13 @@ int main() {
   int remainingDis;
   printf("Distance -> ");
   scanf("%d", &distance);
-  amountLess = 50 * 30;  
-  if(distance > 30)
+  if(distance<30)
+  {
+    amountLess = 50*distance;
+  }
+  if(distance >= 30)
     {
+      amountLess = 50 * 30; 
       remainingDis = distance - 30;
       amountHigh = 40 * remainingDis;
     }
